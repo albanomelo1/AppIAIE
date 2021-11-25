@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 30,
+            "hanaOptions": {
+                "encrypt": true,
+                "sslValidateCertificate": true,
+                "sslCryptoProvider": "openssl"
+            },
+            "previewLimit": 50,
+            "driver": "SAPHana",
+            "name": "HanaBD",
+            "server": "jdbc:sap://9c037a7f-9e83-4035-85cc-76237ae66394.hana.trial-us10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true",
+            "username": "DBADMIN",
+            "database": "DBADMIN",
+            "password": "Albanomelo1",
+            "port": 443
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
